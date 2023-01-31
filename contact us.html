@@ -17,7 +17,7 @@
         margin: 0px;
         padding: opx;
 
-        background-color: rgb(80, 149, 174);
+        background-color: rgb(22, 133, 101);
         background-repeat: no-repeat;
         height: 100%;
         width: 100%;
@@ -37,12 +37,67 @@
         border-radius: 30px;
     }
 
+    h2 {
+        padding: 2px;
+        font-size: 22px;
+        font-weight: 600;
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        text-decoration: underline;
+        background-color: rgb(42, 37, 37);
+        border: 2px;
+        border-radius: 30px;
+    }
+
+    .action {
+        padding: 0px 0px;
+        margin: 0px 0px;
+        border: 2px;
+        border-radius: 4px;
+    }
+
+    .contain button {
+        text-decoration: none;
+        display: block;
+        width: 35%;
+        margin: -5px -13px;
+        padding: 3px;
+        border-radius: 5px;
+        background-color: white;
+    }
+
+    .contact {
+        position: relative;
+        min-height: 30vh;
+        padding: 0px 55px;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        flex-direction: column;
+
+    }
+
+    .contact .content {
+        max-width: 800px;
+        text-align: left;
+    }
+
+    .text {
+        font-size: 18px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+
+
+    .text .button {
+        text-decoration: none;
+    }
 
     .contactform {
         padding: 0 34px;
         padding-top: 114px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        
     }
 
     .contactform h2 {
@@ -54,7 +109,6 @@
         padding: 5px 0;
         display: flex;
         flex-direction: column;
-    
     }
 
     .contactform form div input {
@@ -66,7 +120,7 @@
 
     #emailHelp {
         font-size: 10px;
-        color: rgb(178, 191, 33);
+        color: rgb(65, 42, 214);
     }
 
 
@@ -81,7 +135,7 @@
     }
 
     .buttons {
-        margin-top: 30px;        
+        margin-top: 30px;
     }
 
     .btn {
@@ -89,13 +143,13 @@
         border-radius: 20px;
         background-color: dodgerblue;
         font-weight: bold;
-        font-size: 20px; 
-              
+        font-size: 20px;
+        margin: 18px 3px;
+        cursor: pointer;
     }
 
     .btn-sm {
         font-size: 17px;
-    
     }
 
     .btn:hover {
@@ -104,6 +158,9 @@
 </style>
 
 <body>
+
+
+
 
     <div class="contactform">
         <h1>
@@ -141,7 +198,74 @@
     </div>
     </form>
     </div>
-    
+    <section class="contact ">
+
+        <div class="container">
+            <div class="ContactInfo">
+                <div class="box">
+                    <h2> Our Contact Details</h2>
+                    <div class="contain">
+                        <div class="ContactInfo">
+
+                            <div class="text">
+                                <h3> Phone no - 8279786753 </h3>
+                                <form action="8279786753" method="get" target="_blank">
+
+                                </form>
+                                <button type="btn"><a href="tel:8279786753">Call us</a></button>
+                            </div>
+
+                        </div>
+                        <div class="contain">
+                            <div class="text">
+                                <h3> Email Us - mukulbhati3308@gmail.com </h3>
+                                <form action="mukulbhati3308@gmail.com" method="get" target="_blank">
+
+                                </form>
+                                <button type="btn"><a href="mailto: mukulbhati3308@gmail.com">Send
+                                        Email</a></button>
+                            </div>
+                            <div class="contain">
+                                <div class="text">
+                                    <h3> Instagram Id - mukulbhati_0</h3>
+                                    <form action="mukulbhati_0" method="get" target="_blank">
+
+                                    </form>
+                                    <button type="btn"><a href="mailto: www.instagram.com/mukulbhati_0">Insta
+                                            Id</a></button>
+                                </div>
+                                <div class="contain">
+                                    <div class="text">
+                                        <h3> Twitter Username- mukulbhati_0</h3>
+                                        <form action="mukulbhati_0" method="get" target="_blank">
+
+                                        </form>
+                                        <button type="btn"><a href="mailto: www.twitter.com/mukulbhati_0">Twitter
+                                                Username</a></button>
+                                    </div>
+                                    <div class="contain">
+                                        <div class="text">
+                                            <h3> Facebook Id - mukulbhati_0</h3>
+                                            <form action="mukulbhati_0" method="get" target="_blank">
+
+                                            </form>
+                                            <button type="btn"><a href="mailto: www.facebook.com/mukulbhati_0">facebook
+                                                    Id</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    </section>
+
+
+
+
+
+
+
+
 </body>
 
 </html>
